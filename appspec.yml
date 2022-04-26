@@ -5,6 +5,6 @@ files:
     destination:
 hook :
   BeforeInstall:
-    -location: react.sh
-    timeout: 500
-    runas: root
+    - location: react.sh
+      timeout: 500
+    
