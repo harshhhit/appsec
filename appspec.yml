@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination:
+hook :
+  BeforeInstall:
+    -location: react.sh
+    timeout: 500
+    runas: root
